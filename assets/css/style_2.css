@@ -3,23 +3,24 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
 
+
 body {
-    color:white; 
+    margin: 0;
+    color:#333; 
     font-size: 15px;
     line-height: 1.6px;
-    margin: 0;
     font-family:'Kanit', sans-serif;
 }
+
 
 .container {
     width: 100%;
     max-width: 1200px;
-    margin:0 auto;;
-    
+    margin: 0 auto;
 }
 
 
-/*PROF*/
+/*INTRO*/
 .prof {
     width: 100%;
     height: 100vh;
@@ -37,15 +38,17 @@ body {
     margin: 0 auto;
 }
 
-.prof__title {
+.prof__title{
     color: white;
     font-size: 20px;
     font-weight: 40;
-    
+    text-transform: uppercase;
     text-align: center;
     line-height: 1;
     line-height: 1.2;
+
 }
+
 
 /*HEADER*/
 .header {
@@ -58,12 +61,14 @@ body {
     padding-top: 30px;
 }
 
+
 .header__logo {
     font-size: 30px;
     font-weight: 700;
     color: white;
     
 }
+
 
 .header__inner {
 
@@ -72,13 +77,11 @@ body {
     align-items: center;
 }
 
-
 /*NAV*/
 .nav {
     font-size: 15px;
     text-transform: uppercase;
 }
-
 
 .nav__link {
     display: inline-block;
@@ -98,8 +101,6 @@ body {
     transition: color 0.15s linear;
 }
 
-
 .nav__link:hover:after {
     display: block;
-    z-index: 1000;
 }
